@@ -1,0 +1,21 @@
+# runtime data / state — не должны попадать в репозиторий
+trades.db
+state.json
+*.db
+*.sqlite3
+
+# секреты
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# ide / os
+.vscode/
+.idea/
+.DS_Store
